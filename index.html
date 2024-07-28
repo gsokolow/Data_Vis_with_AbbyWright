@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Project 4</title>
+      <script src="https://d3js.org/d3.v7.min.js"></script>
+      <link rel="stylesheet" href="style/scroller.css" /> 
+  </head>
+  <body>
+    <main>
+      <h1>Economic Growth and Fighting Climate Change are Not Mutually Exclusive </h1>
+      <h3>(We Graham do it all!)</h3>
+
+      <p style="padding: 0 10em 2em 0 ">Last summer, Senator Lindsay Graham, Republican from South Carolina, 
+            said, “I don’t want to be lectured about what we need to do to destroy our 
+            economy in the name of climate change.” (New York Times 2022). 
+            Well, Senator Graham, neither do we - because, that’s not what we have to do. </p>
+
+
+      <div id="content">
+     
+      <div id="sections">
+        
+        <section>
+          In 2016, the United States had a GDP of $49,725 and a total ecological footprint
+           (human resource demand in global hectares) of 8.22 - one of the highest in the 
+           world, behind only Australia and Qatar. However, there are several other 
+           countries with an equivalent (or higher) GDP and a lower total ecological 
+           footprint. Sweden comes in with a GDP of $59.381 and a footprint of 7.25. 
+           Ireland and Austria have GDP similar to the US and footprints nearly 3 global 
+           hectares less. Switzerland and Norway also have similarly low footprints, and 
+           GDPs even higher than the US. But do the people in these countries with lower 
+           ecological footprints enjoy a high standard of living?
+        </section>
+
+        <section>
+          Yes, they do. This is measured by the WHO’s Human Development Index (HDI),
+           which is comprised of three metrics for wellbeing: health, knowledge, and 
+           standard of living (WHO). While HDI can be useful for analysis, it is an 
+           aggregate metric and therefore does not account for in-country inequalities. 
+           In 2016, the United States had an HDI of 0.91 and one of the highest total 
+           ecological footprints among countries with similar HDIs. Japan, Italy, Israel, 
+           the Netherlands, Cyprus all have HDIs comparable to the United States with 
+           significantly lower total ecological footprints. Among GDP peers, Canada is in 
+           a similar spot as the United States as Sweden leads with a much lower footprint.
+            Australia lags behind with a higher total footprint.
+         </section>
+
+         <section>
+          Total ecological footprint is challenging to compare against other countries because 
+          countries are different sizes, as well as populations. When we standardize both
+          country size (biocapacity) and population density we can see that it is possible
+          by example that countries of all different sizes can have a positive biocapacity.
+          We are not saying that all of these countries are perfect, 
+         </section>
+
+         <section>
+          Let’s take a closer look at these four countries we’ve been following. 
+          This radar plot allows us to consider all of the variables we’ve discussed at 
+          once. Clearly, the United States could become more sustainable without 
+          sacrificing its GDP or, what’s maybe more relevant for the average person, 
+          its human development index. When politicians use fear tactics to pit climate 
+          change against our own wellbeing, they are ignoring the potential for sustainable 
+          development that other countries are working to achieve. 
+         </section>
+
+         <section>
+          Data source: https://www.kaggle.com/datasets/footprintnetwork/ecological-footprint
+Global Footprint Network on Total Ecological Footprint https://data.footprintnetwork.org/#/; 
+World Health Organization on Human Development Index
+https://www.who.int/data/nutrition/nlis/info/human-development-index#:~:text=How%20is%20it%20defined%3F,knowledge%20and%20standard%20of%20living. 
+New York Times on Lindsay Graham: https://www.nytimes.com/2022/07/20/us/politics/climate-change-republicans-delay.html
+Radar chart source code: https://observablehq.com/@palewire/radar-chart
+Join code : https://observablehq.com/@dakoop/combining-data-learn-js-data
+         </section>
+
+      </div>
+
+    
+
+      <div id="vis">
+        <div id="chart"></div>
+        <div id="legend"></div>
+      </div>
+    </div>
+    </main>
+  </body>
+
+
+  <script src="js/scroller.js"></script>
+  <script src="js/visualization.js"></script>
+
+
+</html>
